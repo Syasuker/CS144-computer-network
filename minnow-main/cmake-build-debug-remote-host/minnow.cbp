@@ -1,0 +1,1618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="minnow"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\etc\;CMake Files\util\;CMake Files\src\;CMake Files\tests\;CMake Files\apps\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="format">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 format"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_apps__webget.cc">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_apps__webget.cc"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_src__byte_stream.cc">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_src__byte_stream.cc"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_src__byte_stream.hh">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_src__byte_stream.hh"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_src__byte_stream_helpers.cc">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_src__byte_stream_helpers.cc"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_tests__byte_stream_basics.cc">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_tests__byte_stream_basics.cc"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_tests__byte_stream_capacity.cc">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_tests__byte_stream_capacity.cc"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_tests__byte_stream_many_writes.cc">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_tests__byte_stream_many_writes.cc"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_tests__byte_stream_one_write.cc">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_tests__byte_stream_one_write.cc"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_tests__byte_stream_speed_test.cc">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_tests__byte_stream_speed_test.cc"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_tests__byte_stream_stress_test.cc">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_tests__byte_stream_stress_test.cc"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_tests__byte_stream_test_harness.hh">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_tests__byte_stream_test_harness.hh"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_tests__byte_stream_two_writes.cc">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_tests__byte_stream_two_writes.cc"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_tests__common.cc">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_tests__common.cc"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_tests__common.hh">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_tests__common.hh"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_tests__conversions.hh">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_tests__conversions.hh"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_util__address.cc">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_util__address.cc"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_util__address.hh">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_util__address.hh"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_util__buffer.hh">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_util__buffer.hh"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_util__exception.hh">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_util__exception.hh"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_util__file_descriptor.cc">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_util__file_descriptor.cc"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_util__file_descriptor.hh">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_util__file_descriptor.hh"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_util__random.cc">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_util__random.cc"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_util__random.hh">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_util__random.hh"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_util__socket.cc">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_util__socket.cc"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_util__socket.hh">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_util__socket.hh"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_util__tcp_config.hh">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_util__tcp_config.hh"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_util__tcp_receiver_message.hh">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_util__tcp_receiver_message.hh"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy_util__tcp_sender_message.hh">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy_util__tcp_sender_message.hh"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tidy-all">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 tidy-all"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check0">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 check0"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check_webget">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 check_webget"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="speed">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 speed"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="util_debug">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/util/libutil_debug.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 util_debug"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="util_debug/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/util/libutil_debug.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 util_debug/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="util_sanitized">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/util/libutil_sanitized.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 util_sanitized"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="util_sanitized/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/util/libutil_sanitized.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 util_sanitized/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="util_optimized">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/util/libutil_optimized.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 util_optimized"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="util_optimized/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/util/libutil_optimized.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/util"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 util_optimized/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/util/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minnow_debug">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/src/libminnow_debug.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 minnow_debug"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minnow_debug/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/src/libminnow_debug.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 minnow_debug/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minnow_sanitized">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/src/libminnow_sanitized.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 minnow_sanitized"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minnow_sanitized/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/src/libminnow_sanitized.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 minnow_sanitized/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minnow_optimized">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/src/libminnow_optimized.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 minnow_optimized"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minnow_optimized/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/src/libminnow_optimized.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 minnow_optimized/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minnow_testing_debug">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/libminnow_testing_debug.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 minnow_testing_debug"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minnow_testing_debug/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/libminnow_testing_debug.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 minnow_testing_debug/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minnow_testing_sanitized">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/libminnow_testing_sanitized.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 minnow_testing_sanitized"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minnow_testing_sanitized/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/libminnow_testing_sanitized.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 minnow_testing_sanitized/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="functionality_testing">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 functionality_testing"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="speed_testing">
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 speed_testing"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_basics_sanitized">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_basics_sanitized" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_basics_sanitized"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_basics_sanitized/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_basics_sanitized" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_basics_sanitized/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_basics">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_basics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_basics"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_basics/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_basics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_basics/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_capacity_sanitized">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_capacity_sanitized" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_capacity_sanitized"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_capacity_sanitized/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_capacity_sanitized" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_capacity_sanitized/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_capacity">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_capacity" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_capacity"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_capacity/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_capacity" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_capacity/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_one_write_sanitized">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_one_write_sanitized" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_one_write_sanitized"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_one_write_sanitized/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_one_write_sanitized" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_one_write_sanitized/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_one_write">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_one_write" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_one_write"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_one_write/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_one_write" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_one_write/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_two_writes_sanitized">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_two_writes_sanitized" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_two_writes_sanitized"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_two_writes_sanitized/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_two_writes_sanitized" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_two_writes_sanitized/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_two_writes">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_two_writes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_two_writes"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_two_writes/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_two_writes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_two_writes/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_many_writes_sanitized">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_many_writes_sanitized" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_many_writes_sanitized"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_many_writes_sanitized/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_many_writes_sanitized" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_many_writes_sanitized/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_many_writes">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_many_writes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_many_writes"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_many_writes/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_many_writes" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_many_writes/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_stress_test_sanitized">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_stress_test_sanitized" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_stress_test_sanitized"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_stress_test_sanitized/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_stress_test_sanitized" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_stress_test_sanitized/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_stress_test">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_stress_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_stress_test"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_stress_test/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_stress_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_stress_test/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_speed_test">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_speed_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_speed_test"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="byte_stream_speed_test/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/tests/byte_stream_speed_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 byte_stream_speed_test/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="webget">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/apps/webget" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/apps"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/apps/Makefile&quot;  VERBOSE=1 webget"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/apps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/apps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="webget/fast">
+				<Option output="/tmp/minnow-main/cmake-build-debug-remote-host/apps/webget" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/minnow-main/cmake-build-debug-remote-host/apps"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/tmp/minnow-main/util"/>
+					<Add directory="/tmp/minnow-main/src"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/apps/Makefile&quot;  VERBOSE=1 webget/fast"/>
+					<CompileFile command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/apps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/tmp/minnow-main/scripts/make-parallel.sh -j4 -f &quot;/tmp/minnow-main/cmake-build-debug-remote-host/apps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/minnow-main/apps/webget.cc">
+			<Option target="webget"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/src/byte_stream.cc">
+			<Option target="minnow_debug"/>
+			<Option target="minnow_sanitized"/>
+			<Option target="minnow_optimized"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/src/byte_stream.hh">
+			<Option target="minnow_debug"/>
+			<Option target="minnow_sanitized"/>
+			<Option target="minnow_optimized"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/src/byte_stream_helpers.cc">
+			<Option target="minnow_debug"/>
+			<Option target="minnow_sanitized"/>
+			<Option target="minnow_optimized"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/tests/byte_stream_basics.cc">
+			<Option target="byte_stream_basics_sanitized"/>
+			<Option target="byte_stream_basics"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/tests/byte_stream_capacity.cc">
+			<Option target="byte_stream_capacity_sanitized"/>
+			<Option target="byte_stream_capacity"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/tests/byte_stream_many_writes.cc">
+			<Option target="byte_stream_many_writes_sanitized"/>
+			<Option target="byte_stream_many_writes"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/tests/byte_stream_one_write.cc">
+			<Option target="byte_stream_one_write_sanitized"/>
+			<Option target="byte_stream_one_write"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/tests/byte_stream_speed_test.cc">
+			<Option target="byte_stream_speed_test"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/tests/byte_stream_stress_test.cc">
+			<Option target="byte_stream_stress_test_sanitized"/>
+			<Option target="byte_stream_stress_test"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/tests/byte_stream_two_writes.cc">
+			<Option target="byte_stream_two_writes_sanitized"/>
+			<Option target="byte_stream_two_writes"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/tests/common.cc">
+			<Option target="minnow_testing_debug"/>
+			<Option target="minnow_testing_sanitized"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/tests/common.hh">
+			<Option target="minnow_testing_debug"/>
+			<Option target="minnow_testing_sanitized"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/util/address.cc">
+			<Option target="util_debug"/>
+			<Option target="util_sanitized"/>
+			<Option target="util_optimized"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/util/address.hh">
+			<Option target="util_debug"/>
+			<Option target="util_sanitized"/>
+			<Option target="util_optimized"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/util/file_descriptor.cc">
+			<Option target="util_debug"/>
+			<Option target="util_sanitized"/>
+			<Option target="util_optimized"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/util/file_descriptor.hh">
+			<Option target="util_debug"/>
+			<Option target="util_sanitized"/>
+			<Option target="util_optimized"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/util/random.cc">
+			<Option target="util_debug"/>
+			<Option target="util_sanitized"/>
+			<Option target="util_optimized"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/util/random.hh">
+			<Option target="util_debug"/>
+			<Option target="util_sanitized"/>
+			<Option target="util_optimized"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/util/socket.cc">
+			<Option target="util_debug"/>
+			<Option target="util_sanitized"/>
+			<Option target="util_optimized"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/util/socket.hh">
+			<Option target="util_debug"/>
+			<Option target="util_sanitized"/>
+			<Option target="util_optimized"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/etc/build_type.cmake">
+			<Option virtualFolder="CMake Files\etc\"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/etc/cflags.cmake">
+			<Option virtualFolder="CMake Files\etc\"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/etc/scanners.cmake">
+			<Option virtualFolder="CMake Files\etc\"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/etc/tests.cmake">
+			<Option virtualFolder="CMake Files\etc\"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/util/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\util\"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/tmp/minnow-main/apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

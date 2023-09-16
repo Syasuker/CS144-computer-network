@@ -2,11 +2,16 @@
 
 #include "byte_stream.hh"
 
+#include <map>
 #include <string>
 
 class Reassembler
 {
+private:
+  std::map<size_t, std::string> window;
+
 public:
+  Reassembler();
   /*
    * Insert a new substring to be reassembled into a ByteStream.
    *   `first_index`: the index of the first byte of the substring

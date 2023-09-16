@@ -20,7 +20,7 @@ int main()
       test.execute( BytesPushed { 2 } );
       test.execute( AvailableCapacity { 0 } );
       test.execute( BytesBuffered { 2 } );
-//      test.execute( Peek { "ca" } );
+      test.execute( Peek { "ca" } );
 
       test.execute( Push { "t" } );
 
@@ -31,7 +31,7 @@ int main()
       test.execute( BytesPushed { 2 } );
       test.execute( AvailableCapacity { 0 } );
       test.execute( BytesBuffered { 2 } );
-//      test.execute( Peek { "ca" } );
+      test.execute( Peek { "ca" } );
     }
 
     {
@@ -49,7 +49,7 @@ int main()
       test.execute( BytesPushed { 4 } );
       test.execute( AvailableCapacity { 0 } );
       test.execute( BytesBuffered { 2 } );
-//      test.execute( Peek { "ta" } );
+      test.execute( Peek { "ta" } );
     }
 
     {
@@ -67,7 +67,7 @@ int main()
       test.execute( BytesPushed { 3 } );
       test.execute( AvailableCapacity { 0 } );
       test.execute( BytesBuffered { 2 } );
-//      test.execute( Peek { "at" } );
+      test.execute( Peek { "at" } );
     }
 
     {
@@ -83,17 +83,17 @@ int main()
       test.execute( Push { "" } );
       test.execute( Push { "" } );
       test.execute( Push { "" } );
-//      test.execute( Peek { "ca" } );
-//      test.execute( Peek { "ca" } );
+      test.execute( Peek { "ca" } );
+      test.execute( Peek { "ca" } );
       test.execute( BytesBuffered { 2 } );
-//      test.execute( Peek { "ca" } );
-//      test.execute( Peek { "ca" } );
+      test.execute( Peek { "ca" } );
+      test.execute( Peek { "ca" } );
       test.execute( Pop { 1 } );
       test.execute( Push { "" } );
       test.execute( Push { "" } );
       test.execute( Push { "" } );
-//      test.execute( Peek { "a" } );
-//      test.execute( Peek { "a" } );
+      test.execute( Peek { "a" } );
+      test.execute( Peek { "a" } );
       test.execute( BytesBuffered { 1 } );
     }
 

@@ -58,7 +58,7 @@ uint64_t Writer::bytes_pushed() const
   return size_pushed;
 }
 
-string_view Reader::peek() const
+string Reader::peek() const
 {
   // Your code here.
   //  char out;
@@ -66,10 +66,10 @@ string_view Reader::peek() const
   //    out += buffer[i];
   //  }
   //  out += buffer[0];
-  string str( buffer.begin(), buffer.end());
-
+  string str( buffer.begin(), buffer.end() );
   string_view stringView( str.c_str() );
-  return stringView;
+
+  return str;
 }
 
 bool Reader::is_finished() const
@@ -104,4 +104,5 @@ uint64_t Reader::bytes_popped() const
 {
   // Your code here.
   return size_popped;
+  //
 }

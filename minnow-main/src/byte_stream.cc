@@ -1,4 +1,3 @@
-#include <iostream>
 #include <stdexcept>
 
 #include "byte_stream.hh"
@@ -9,7 +8,6 @@ ByteStream::ByteStream( uint64_t capacity )
   : capacity_( capacity )
   , buffer()
   , closed( false )
-  , finished( false )
   , size_pushed( 0 )
   , size_popped( 0 )
   , error( false )
@@ -58,7 +56,8 @@ uint64_t Writer::bytes_pushed() const
   return size_pushed;
 }
 
-string Reader::peek() const
+//string_view Reader::peek() const
+ string Reader::peek() const
 {
   // Your code here.
   //  char out;
@@ -66,10 +65,12 @@ string Reader::peek() const
   //    out += buffer[i];
   //  }
   //  out += buffer[0];
-  string str( buffer.begin(), buffer.end() );
-  string_view stringView( str.c_str() );
+  string peek( buffer.begin(), buffer.end() );
 
-  return str;
+//  cout << "Reader::peek = " << peek << endl;
+  string_view stringView( peek );
+//  cout << "Reader::peek stringView = " << stringView.data() << endl;
+  return peek;
 }
 
 bool Reader::is_finished() const
